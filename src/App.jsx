@@ -4,6 +4,9 @@ function App() {
   // 头像URL
   const avatarUrl = "https://via.placeholder.com/180"
   
+  // 自定义字体（可选）
+  const customFont = "" // 例如: "Noto Sans SC", "Microsoft YaHei"
+  
   const locations = [
     { flag: '🇯🇵', name: '日本 Japan', cities: ['大阪', '京都', '奈良', '神户', '德岛', '东京', '横滨'] },
     { flag: '🇰🇷', name: '韩国 Korea', cities: ['济州岛'] },
@@ -26,7 +29,7 @@ function App() {
   const quotes = ['会屏蔽我不喜欢的人，同样，不喜欢我请屏蔽我。', '随时欢迎私信聊天扩列，我很闷，同城或周边也可线下。', '可解答计算机方面的问题，我兴趣广泛。']
 
   return (
-    <div className="profile-card">
+    <div className="profile-card" style={customFont ? { fontFamily: `"${customFont}", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif` } : {}}>
       {/* 头部 */}
       <div className="header">
         <div className="avatar" style={{ backgroundImage: `url(${avatarUrl})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
