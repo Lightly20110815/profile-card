@@ -4,8 +4,6 @@
 
 (其实是根据图片重构了一下小雨 x.com/amecandy_x的资料卡哦)
 
-![Profile Card Preview](http://profile.404yann.com/)
-
 ## ✨ 特性
 
 - 🎨 **现代化设计** - 采用毛玻璃效果和渐变背景

@@ -8,25 +8,21 @@ function App() {
   const customFont = "PingFang SC" // 例如: "Noto Sans SC", "Microsoft YaHei"
   
   const locations = [
-    { flag: '🇯🇵', name: '日本 Japan', cities: ['大阪', '京都', '奈良', '神户', '德岛', '东京', '横滨'] },
-    { flag: '🇰🇷', name: '韩国 Korea', cities: ['济州岛'] },
-    { flag: '🇭🇰', name: '香港 Hong Kong', cities: ['香港', '九龙', '新界'] },
-    { flag: '🇷🇺', name: '俄罗斯 Russia', cities: ['海参崴', '伯力', '阿穆尔河畔共青城', '海兰泡'] },
+    { flag: '🇨🇳', name: '中国大陆 China Mainland', cities: ['合肥','沈阳','惠州','深圳','武汉'] },
+    { flag: '🇭🇰', name: '香港 Hong Kong', cities: ['香港'] },
   ]
 
   const attributes = [
-    '18岁',
-    '跨性别女性',
-    'HRT・2022',
-    '双相情感障碍',
-    '全栈开发者',
-    '无氪游民',
+    'MTF',
+    'HRT・2025.08.11',
+    'MDD',
+    '她 / She',
   ]
 
-  const extraInfo = ['死硬左派', '不是在旅行就是在期待旅行', '']
-  const tags = ['OC', 'Vocaloid', 'P社游戏', '山东济南']
-  const notices = ['会有血图', '会使用精神活性药物', '会讨论政治和发表暴论', '会玩消失']
-  const quotes = ['会屏蔽我不喜欢的人，同样，不喜欢我请屏蔽我。', '随时欢迎私信聊天扩列，我很闷，同城或周边也可线下。', '可解答计算机方面的问题，我兴趣广泛。']
+  const extraInfo = ['深夜内容生成机', '逃避现实专家', '社恐', '重度拖延症']
+  const tags = ['Node.js + Vue + pnpm', 'Vocaloid', '404yann / ddnsy.fun', 'LGBTQ+', '旅行']
+  const notices = ['情绪极端波动可能频繁出现', '会使用精神活性药物', '会讨论政治和发表暴论', '易被言语触发，非理性发言可能存在','不接受“控制感很强的人”靠近']
+  const quotes = ['随时欢迎扩列，但请勿用强光刺穿我。', '我不求理解，但希望不被误解。', '喜欢一个人就温柔待她，别分析她。','请用温柔对待我，谢谢。']
 
   return (
     <div className="profile-card" style={customFont ? { fontFamily: `"${customFont}", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif` } : {}}>
