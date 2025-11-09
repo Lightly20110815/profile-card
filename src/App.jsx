@@ -2,10 +2,10 @@ import './App.css'
 
 function App() {
   // 头像URL
-  const avatarUrl = "https://via.placeholder.com/180"
+  const avatarUrl = "https://api.ddnsy.fun/avatar.webp"
   
   // 自定义字体（可选）
-  const customFont = "" // 例如: "Noto Sans SC", "Microsoft YaHei"
+  const customFont = "PingFang SC" // 例如: "Noto Sans SC", "Microsoft YaHei"
   
   const locations = [
     { flag: '🇯🇵', name: '日本 Japan', cities: ['大阪', '京都', '奈良', '神户', '德岛', '东京', '横滨'] },
@@ -35,12 +35,12 @@ function App() {
         <div className="avatar" style={{ backgroundImage: `url(${avatarUrl})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         <div className="header-info">
           <h1>
-            这里是Name
-            <span className="flag">🏴</span>
+            𝒮𝓎 𝒴𝒶𝓃𝓃
+            <span className="flag">🏳️‍⚧️</span>
           </h1>
-          <div className="username">@用户名 · 小雨 · 昵称-chan</div>
-          <div className="bio">「小雨不乖，请你把紧。」</div>
-          <div className="website">—— 我的博客 www.example.xyz。</div>
+          <div className="username">@yxrchina · 𝕊𝕪 𝕐𝕒𝕟𝕟</div>
+          <div className="bio">「With You,Through All.」</div>
+          <div className="website">—— Sy's Digital Garden 404yann.com</div>
         </div>
       </div>
 
