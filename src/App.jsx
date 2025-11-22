@@ -36,7 +36,14 @@ function App() {
           </h1>
           <div className="username">@yxrchina · 𝕊𝕪 𝕐𝕒𝕟𝕟</div>
           <div className="bio">「With You,Through All.」</div>
-          <div className="website">—— Sy's Digital Garden 404yann.com</div>
+          <a
+            href="https://404yann.com"
+            className="website"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            —— Sy's Digital Garden
+          </a>
         </div>
       </div>
 
